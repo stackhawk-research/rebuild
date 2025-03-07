@@ -5,55 +5,55 @@
 [![License GPLv3](https://img.shields.io/github/license/getrebuild/rebuild.svg)](https://getrebuild.com/legal/service-terms)
 [![License 商业授权](https://img.shields.io/badge/license-%E5%95%86%E4%B8%9A%E6%8E%88%E6%9D%83-red.svg)](https://getrebuild.com/legal/service-terms)
 
-## 项目特色
+## Project Features
 
-**_相较于同类产品，REBUILD 更侧重于业务需求实现，而非基础的技术框架或项目启动模板。_**
+**_Compared to similar products, REBUILD focuses more on business needs realization rather than basic technical framework or project startup template. _**
 
-「开放式设计」是 REBUILD 的重要设计理念！得益于团队成熟的企业管理系统经验，我们实现了对企业日常各类需求的可配置化管理，全图形化设计零代码搭建，所见即所得。
+"Open design" is an important design concept of REBUILD! Thanks to the team's mature experience in enterprise management systems, we have achieved configurable management of various daily needs of enterprises, full graphical design and zero-code construction, what you see is what you get.
 
-更多详情介绍 [https://getrebuild.com/](https://getrebuild.com/)
+More details [https://getrebuild.com/](https://getrebuild.com/)
 
-> **福利：加入 REBUILD VIP 用户 QQ 交流群 819865721 1013051587 GET 使用技能**
+> **Benefits: Join REBUILD VIP user QQ exchange group 819865721 1013051587 GET Usage skills**
 
-## V3.9 新特性
+## V3.9 new features
 
-本次更新为你带来众多功能增强与优化。
+This update brings you many functional enhancements and optimizations.
 
-1. [新增] 导出报表触发器
-2. [新增] 字段更新、字段聚合支持自动新建记录
-3. [新增] 自定义操作（按钮）
-4. [新增] 通讯录功能
-5. [新增] 图表支持选择主题颜色、显示单位
-6. [新增] 可查看记录的所有历史审批
-7. [新增] 多个 FrontJS 函数
-8. [优化] 20+ 细节/BUG/安全性更新
+1. [New] Export report trigger
+2. [New] Field update and field aggregation support automatic new record creation
+3. [New] Custom operation (button)
+4. [New] Address book function
+5. [New] Chart supports selection of theme color and display unit
+6. [New] View all historical approvals of records
+7. [New] Multiple FrontJS functions
+8. [Optimization] 20+ details/BUG/security updates
 9. ...
 
-更多更新详情请参见 [更新日志](https://getrebuild.com/docs/dev/changelog)
+For more update details, please see [Update log](https://getrebuild.com/docs/dev/changelog)
 
-## 在线体验
+## Online experience
 
 [https://nightly.getrebuild.com/](https://nightly.getrebuild.com/)
 
-> 默认超级管理员用户名密码为 `admin` `admin`
+> The default super administrator username and password are `admin` `admin`
 
-## 使用
+## Use
 
-开始使用 REBUILD 非常简单，无需配置复杂的运行环境，零依赖快速部署！
+It is very simple to start using REBUILD. There is no need to configure a complex operating environment. Zero dependency and fast deployment!
 
-#### 1. 使用已发布版本
+#### 1. Use the released version
 
-_生产环境强烈推荐使用此方式 !!!_
+_This method is highly recommended for production environments!!!_
 
-首先 [下载](https://getrebuild.com/download) 安装包，我们同时提供 `standalone` 与 `boot` 两种安装包。`standalone` 为集成安装包（推荐），`boot` 为 SpringBoot 的 `jar` 包，两种安装包在功能上没有区别。
+First, [download](https://getrebuild.com/download) the installation package. We provide both `standalone` and `boot` installation packages. `standalone` is an integrated installation package (recommended), and `boot` is the `jar` package of SpringBoot. There is no difference in the functions of the two installation packages.
 
-下载后解压（集成安装包），通过 `start-rebuild.bat` 或 `start-rebuild.sh` 启动，然后打开浏览器输入 [http://localhost:18080/](http://localhost:18080/) 开始体验。
+After downloading, unzip (integrated installation package), start it through `start-rebuild.bat` or `start-rebuild.sh`, and then open the browser and enter [http://localhost:18080/](http://localhost:18080/) to start the experience.
 
-更多详情请参见 [安装文档](https://getrebuild.com/learn/install)
+For more details, please refer to the [installation document](https://getrebuild.com/learn/install)
 
-#### 2. 通过源码编译
+#### 2. Compile from source code
 
-_注意 !!! 生产环境请使用 `master` 分支（默认分支），其他分支为开发分支，功能存在不确定性！_
+_Note!!! Please use the `master` branch (default branch) for production environments. Other branches are development branches and their functions are uncertain! _
 
 ```
 # 拉取
